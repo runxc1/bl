@@ -1,0 +1,4 @@
+baseURL = 'http://bl.run.place/'
+languageCode = 'en-us'
+title = 'Ben Lomond Cross Country'
+theme = 'massively'

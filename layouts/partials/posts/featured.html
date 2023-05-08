@@ -1,0 +1,35 @@
+<article>
+    <p>
+        Welcome to the Ben Lomond Cross Country team page.  Our goal is help kids feel comfortable running and to 
+        help them prepare for a lifelong fitness habit.  Runs during the summer will be tailored to each athlete 
+        and will be geared towards having a little more fun as it's pre-season running.
+    </p>
+    <p> If you have any questions you can Email one of the coaches (email addresses found below) or check out 
+        the <a href="/faq">frequently asked questions</a>
+    </p>
+</article>
+
+<!-- Featured Post 
+{{ $data := .siteData }}
+{{ range .firstpost }}
+<article class="post featured">
+    <header class="major">
+        {{ if not .Date.IsZero }}
+        <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
+        {{ end }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ else }}
+        <p>{{ .Summary }}</p>
+        {{ end }}
+    </header>
+    {{ if .Params.image }}
+    <a href="{{ .Permalink }}" class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></a>
+    {{ end }}
+    <ul class="actions">
+        <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a></li>
+    </ul>
+</article>
+{{ end }}
+-->
